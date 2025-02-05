@@ -1,12 +1,13 @@
 import react from 'react'
 import Header from './components/Header.jsx'
+import Container from './components/Container.jsx'
 
 function App() {
 
   return (
     <>
-    <Header/>
-    this is a sample space
+    <Container/>
+   
     </>
   )
 }
