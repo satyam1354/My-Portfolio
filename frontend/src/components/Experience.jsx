@@ -2,7 +2,16 @@ import React from "react";
 const Experience = ()=>{
     return(
         <div>
-            <div>my Experience </div>
+            <div>Explore My </div>
+            <div>Experience</div>
+            <div>
+                <div>
+                    <div>Front Development</div>
+                    <div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
