@@ -5,7 +5,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="flex items-center justify-between px-24 py-4 bg-gray-100 shadow-md">
+    <nav className="flex items-center justify-between md:justify-evenly w-full  px-6 py-4 bg-gray-100 shadow-md">
       {/* Logo */}
       <div className='text-2xl font-bold'>Satya</div>
 
