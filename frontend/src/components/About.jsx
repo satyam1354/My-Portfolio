@@ -3,7 +3,7 @@ import { Github, Linkedin } from 'lucide-react';
 
 const About = () => {
     return (
-        <div id="about" className="bg-gray-400 p-4">
+        <div id="about" className="bg-gray-400 py-4 px-20">
             <div className="font-bold text-3xl ml-5">About Me</div>
             <div className="p-5">
                 <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit.

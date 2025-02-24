@@ -13,11 +13,12 @@ const Container = () => {
             <hr />
             <Feed />
             <hr className="border-t-2 border-black " />
-            <Projects />
-            <hr className="border-t-2 border-black " />
             <About />
             <hr className="border-t-2 border-black " />
             <Experience />
+            <hr className="border-t-2 border-black " />
+
+            <Projects />
             <hr className="border-t-2 border-black " />
 
             <Contact />
