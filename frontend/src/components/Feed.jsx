@@ -11,8 +11,8 @@ const Feed = () => {
                     <div className='text-2xl font-bold  py-1'>Satyam Kumar</div>
                     <div className=' text-xl pb-3'>Frontend developer</div>
                     <div className='flex gap-4'>
-                        <div className='border border-gray-400 bg-gray-200 rounded-2xl px-3 py-1 text-black'><a href='#'>Download CV</a></div>
-                        <div className='border border-gray-400 bg-black rounded-2xl px-3 py-1 text-white'><a href='#'>Contact info</a></div>
+                        <div className='border border-gray-400 bg-gray-200 rounded-2xl px-3 py-1 text-black'><a href='/cv.pdf' >Download CV</a></div>
+                        <div className='border border-gray-400 bg-black rounded-2xl px-3 py-1 text-white'><a href='#contact'>Contact info</a></div>
                     </div>
                     <div className='flex gap-4 items-center h-14 px-24'>
                         <a href='https://www.github.com/satyam1354/' target='_blank'><Github size={20} className=" hover:text-black"/></a>

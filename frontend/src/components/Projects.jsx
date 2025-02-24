@@ -16,7 +16,7 @@ const Projects = () => {
     }
     return (
         <>
-            <div className="m-10 ">
+            <div id="projects" className="m-10 ">
                 <p className="text-center">Browse my recent</p>
                 <div className="text-3xl text-center font-bold">Projects</div>
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center min-h-40 p-12 gap-8 ">
@@ -28,11 +28,11 @@ const Projects = () => {
                 </div>
                 {
                     visibleProjects < projects.length && (
-                        <div className=" text-right pr-24 py-4"><button onClick={loadMoreProjects} className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"> <ChevronsDown /></button></div>
+                        <div className=" text-right pr-24 py-4"><button onClick={loadMoreProjects} className="px-4 py-2 bg bg-blue-500 text-white rounded-lg hover:bg-blue-600"> <ChevronsDown /></button></div>
                     )
                 }
                 {
-                    visibleProjects== projects.length &&(
+                    visibleProjects == projects.length && (
                         <div className="text-center font-bold text-red-600">No more Projects...</div>
                     )
                 }
